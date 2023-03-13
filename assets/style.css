@@ -26,6 +26,7 @@ html {
     color: rgb(255, 255, 255);
     background-color: #0061FF;
     border: none;
+    cursor: pointer;
 }
 
 li {
@@ -80,10 +81,11 @@ li {
     margin-right: 20px;
 }
 
-/* CENTRAL CONTENT HEADER */
+/* JUMBO SECTION */
 
 .jumbo-content {
     display: flex;
+    position: relative;
     padding-top: 3rem;
 }
 
@@ -94,24 +96,30 @@ li {
 }
 
 .jmb-left p {
-
+    line-height: 1.5;
 }
 
 .btn-large {
     font-size: 18px;
-    padding: 15px 10px;
-    margin-right: 120px;
+    padding: 15px 0px;
+    margin-right: 7rem;
 }
 
 .jumbo img {
     height: 30rem;
-    top: 6rem;
-    margin-bottom: -80px;
-    
+    margin-bottom: -75px;
 }
 
 h1 {
     padding-top: 5rem;
-    font-weight: 800;
-    font-size: 4rem;
+    font-size: 5rem;
+}
+
+.arw-down {
+    position: absolute;
+    font-size: 3.5rem;
+    left: 0;
+    bottom: 15px;
+    cursor: pointer;
+    /* hover per far skippare la sezione */
 }
