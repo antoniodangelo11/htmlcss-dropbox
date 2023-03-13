@@ -1,0 +1,23 @@
+/* HEADER */
+
+header {
+    height: 5rem;
+}
+
+nav {
+    height: 5rem;
+}
+
+/* GENERAL SETTINGS */
+
+.bkg-sky {
+    background-color: #B4D0E7;
+    height: 750px;
+}
+
+.big-container {
+    height: 100%;
+    max-width: 1200px;
+    margin: auto;
+    background-color: red;
+}
