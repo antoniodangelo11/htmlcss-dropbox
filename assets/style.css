@@ -9,8 +9,109 @@
 /* GENERAL SETTINGS */
 
 html {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Open sans', sans-serif;
+    font-size: 16px;
 }
+
+.bkg-sky {
+    background-color: #B4D0E7;
+}
+
+.big-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.btn {
+    color: rgb(255, 255, 255);
+    background-color: #0061FF;
+    border: none;
+}
+
+li {
+    list-style: none;
+}
+
 
 /* HEADER */
 
+.navbar-top {
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+.navbar-top a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* MENU LEFT NAVBAR TOP */
+
+.menu-left {
+    display: flex;
+    align-items: center;
+}
+
+.menu-left a {
+    padding: 30px 20px;
+}
+
+.menu-left img {
+    padding-inline: 20px;
+    padding-top: 6px;
+}
+
+/* MENU RIGHT NAVBAR TOP */
+
+.menu-right {
+    display: flex;
+    align-items: center;
+}
+
+.menu-right a {
+    padding: 30px 20px;
+}
+
+.btn-small {
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-right: 20px;
+}
+
+/* CENTRAL CONTENT HEADER */
+
+.jumbo-content {
+    display: flex;
+    padding-top: 3rem;
+}
+
+.jmb-left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.jmb-left p {
+
+}
+
+.btn-large {
+    font-size: 18px;
+    padding: 15px 10px;
+    margin-right: 120px;
+}
+
+.jumbo img {
+    height: 30rem;
+    top: 6rem;
+    margin-bottom: -80px;
+    
+}
+
+h1 {
+    padding-top: 5rem;
+    font-weight: 800;
+    font-size: 4rem;
+}
