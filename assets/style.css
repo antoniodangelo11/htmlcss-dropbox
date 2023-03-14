@@ -20,11 +20,13 @@ html {
 .big-container {
     max-width: 1200px;
     margin: auto;
+    /* padding-inline: 20px; */
 }
 
 .small-container {
     max-width: 1000px;
     margin: auto;
+    /* padding-inline: 20px; */
 }
 
 .btn {
@@ -32,6 +34,7 @@ html {
     background-color: #0061FF;
     border: none;
     cursor: pointer;
+    display: inline-block;
 }
 
 li {
@@ -42,9 +45,9 @@ li {
 /* HEADER */
 
 .navbar-top {
+    background-color: rgb(255, 255, 255);
     height: 5rem;
     display: flex;
-    background-color: rgb(255, 255, 255);
     justify-content: space-between;
     align-items: center;
     position: fixed;
@@ -64,6 +67,7 @@ li {
 .menu-left {
     display: flex;
     align-items: center;
+    white-space: nowrap;
 }
 
 .menu-left a {
@@ -80,6 +84,7 @@ li {
 .menu-right {
     display: flex;
     align-items: center;
+    white-space: nowrap;
 }
 
 .menu-right a {
@@ -96,6 +101,7 @@ li {
 
 .jumbo-content {
     display: flex;
+    align-items: flex-start;
     position: relative;
     padding-top: 3rem;
 }
@@ -112,17 +118,19 @@ li {
 
 .btn-jmb {
     font-size: 18px;
-    padding: 15px 0px;
+    padding: 15px 15px;
     margin-right: 7rem;
+    white-space: nowrap;
+    text-decoration: none;
 }
 
-.jumbo img {
-    height: 30rem;
+.jumbo-content img {
+    min-width: 70%;
     margin-bottom: -75px;
 }
 
 h1 {
-    padding-top: 5rem;
+    padding-top: 10rem;
     font-size: 5rem;
 }
 
@@ -132,12 +140,13 @@ h1 {
     left: 0;
     bottom: 15px;
     cursor: pointer;
+    color: rgb(0, 0, 0);
     /* hover per far skippare la sezione */
 }
 
 /* MAIN */
 
-/* FIRST SECTION */
+/* CARDS SECTION */
 
 .first-sec {
     padding-top: 10rem;
@@ -165,9 +174,8 @@ h1 {
 }
 
 .card {
-    height: 800px;
     width: calc(100% / 3);
-    border: 1px solid gray;
+    border: 1px solid rgb(201, 201, 201);
 }
 
 .sub-text {
@@ -177,7 +185,7 @@ h1 {
 }
 
 .sub-text {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(201, 201, 201);
 }
 
 .info-card {
@@ -186,11 +194,29 @@ h1 {
 
 .info-card li {
     font-size: 14px;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 li > h3 {
     font-size: 1.5rem;
+}
+
+li > a {
+    color: #1838F0;
+}
+
+.name-plan {
+    margin-bottom: 1.5rem;
+}
+
+.price {
+    font-weight: 800;
+}
+
+.plan {
+    color: rgb(128, 128, 128);
+    font-size: 200;
+    padding-bottom: 1rem;
 }
 
 .btn-card {
@@ -205,15 +231,21 @@ li > h3 {
     color: #0061FF;
 }
 
-/* BOTTOM  CARD */
+.before::before {
+    content: '_______';
+    color: rgb(201, 201, 201);
+    margin-left: 15px;
+}
+
+/* FOURTH CARD */
 
 .bot-box {
-    border: 1px solid gray;
+    border: 1px solid rgb(201, 201, 201);
     margin-bottom: 10rem;
 }
 
 .sub-text {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(201, 201, 201);
 }
 
 .bot-content {
@@ -223,19 +255,26 @@ li > h3 {
 .bot-left {
     display: flex;
     flex-direction: column;
-    flex: 0 1 80%;
     gap: 1rem;
     padding: 2rem;
 }
 
-
+.bot-left > div {
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
 
 .bot-right {
-    flex: 0 1 20%;
     padding: 2rem;
 }
 
-/* SECOND SECTION */
+.btn-seller {
+    white-space: nowrap;
+    padding: 5px;
+}
+
+/* PARTNER SECTION */
 
 .partner-box {
     display: flex;
