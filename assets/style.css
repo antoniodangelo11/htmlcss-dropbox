@@ -304,3 +304,34 @@ li > a {
     padding: 10px 10px;
     margin-right: 12rem;
 }
+
+/* BUSINESS SECTION */
+
+.third-sec {
+    padding-top: 10rem;
+}
+
+.third-sec h2 {
+    font-size: 2.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.third-sec h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.business-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.business-card {
+    flex: calc(100% / 3 - 1rem);
+    margin-inline: .5rem;
+}
+
+.business-card img {
+    height: 250px;
+    min-width: 20%;
+}
