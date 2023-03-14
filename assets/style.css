@@ -220,6 +220,7 @@ li > a {
 }
 
 .btn-card {
+    white-space: nowrap;
     padding: 10px 35px;
 }
 
@@ -271,7 +272,7 @@ li > a {
 
 .btn-seller {
     white-space: nowrap;
-    padding: 5px;
+    padding: 10px 30px;
 }
 
 /* PARTNER SECTION */
@@ -319,7 +320,7 @@ li > a {
 .end-business > h2 {
     font-size: 2.5rem;
     font-weight: 800;
-    padding-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .end-business > p {
@@ -330,6 +331,7 @@ li > a {
 }
 
 .end-business > a {
+    font-size: 0.8rem;
     color: #1838F0;
 }
 
@@ -341,15 +343,81 @@ li > a {
 .business-box {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 13rem;
+    padding-bottom: 8rem;
 }
 
 .business-card {
     flex: calc(100% / 3 - 1rem);
-    margin-inline: .5rem;
+    padding-inline: .5rem;
+    padding-bottom: 3rem;
 }
 
 .business-card img {
     height: 250px;
     min-width: 20%;
+}
+
+/* TEAM SECTION */
+
+.teams-container {
+    display: flex;
+}
+
+.team-left {
+    width: calc(100% / 3);
+    aspect-ratio: 1/1;
+}
+
+.center-team {
+    flex: 0 0 50%;
+}
+
+.team-right {
+    width: calc(100% / 3);
+    aspect-ratio: 1/1;
+}
+
+.box-1{
+    height: 100%;
+    background-color: #A2D39B;
+}
+
+.box-2{
+    height: 100%;
+    background-color: #61082B;
+}
+
+.box-3 {
+    height: 100%;
+    background-color: #0093CE;
+}
+
+.box-4 {
+    height: 100%;
+    background-color: #FF1C1C;
+}
+
+.box-5 {
+    height: 100%;
+    background-color: #F5F5F5;
+}
+
+.box-6 {
+    height: 100%;
+    background-color: #A2D39B;
+}
+
+.box-7 {
+    height: 100%;
+    background-color: #A2D39B;
+}
+
+.box-8 {
+    height: 100%;
+    background-color: #A2D39B;
+}
+
+.box-9 {
+    height: 100%;
+    background-color: #A2D39B;
 }
