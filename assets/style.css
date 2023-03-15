@@ -91,15 +91,17 @@ li {
 }
 
 .menu-right li > a {
-    margin-right: 5px;
     padding: 29px 20px;
 }
 
-.btn-nav {
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    padding: 6px 16px;
+.btn-nav-r {
     margin-right: 20px;
+    padding: 5px 0px;
+}
+
+#btn-nav {
+    font-size: 16px;
+    color: white;
 }
 
 /* JUMBO SECTION */
