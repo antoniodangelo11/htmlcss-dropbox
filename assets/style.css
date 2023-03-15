@@ -20,13 +20,11 @@ html {
 .big-container {
     max-width: 1200px;
     margin: auto;
-    /* padding-inline: 20px; */
 }
 
 .small-container {
     max-width: 1000px;
     margin: auto;
-    /* padding-inline: 20px; */
 }
 
 .btn {
@@ -141,7 +139,6 @@ h1 {
     bottom: 15px;
     cursor: pointer;
     color: rgb(0, 0, 0);
-    /* hover per far skippare la sezione */
 }
 
 /* MAIN */
@@ -268,6 +265,7 @@ li > a {
 }
 
 .bot-right {
+    align-self: self-start;
     padding: 2rem;
 }
 
