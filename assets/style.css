@@ -190,9 +190,13 @@ h1 {
     padding: 2rem;
 }
 
-.info-card li {
+.info-card > li {
     font-size: 14px;
     padding: 1rem;
+}
+
+.info-card-bot li {
+    padding-top: 1rem;
 }
 
 li > h3 {
@@ -231,9 +235,10 @@ li > a {
 }
 
 .before::before {
-    content: '_______';
-    color: rgb(201, 201, 201);
-    padding-left: 15px;
+    content: "";
+    display: block;
+    width: 30%;
+    border-top: 1px solid rgb(201, 201, 201);
 }
 
 /* FOURTH CARD */
@@ -391,7 +396,7 @@ li > a {
    height: 100%;
 }
 
-.box-center > p {
+.center-text > p {
     padding-top: 2rem;
     padding-inline: 2rem;
 }
@@ -406,7 +411,7 @@ li > a {
     padding-inline: 2rem;
 }
 
-.before-1::before {
+.center-text::before {
     content: '______________';
     color: rgb(201, 201, 201);
     padding-inline: 2rem;
@@ -494,7 +499,7 @@ li > a {
 .faq::before {
     content: "";
     display: block;
-    height:2rem;
+    height: 2rem;
     border-top: 1px solid rgb(201, 201, 201);
 }
 
@@ -526,14 +531,14 @@ footer {
 .navbar-bot {
     display: flex;
     justify-content: space-between;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
 }
 
-.navbar-bot li:first-child {
+.title-nav {
     font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
 }
 
 .navbar-bot li {
