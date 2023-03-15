@@ -501,6 +501,8 @@ li > a {
 }
 
 .faq {
+    display: flex;
+    flex-direction: column;
     font-weight: 700;
     margin-bottom: 2rem
 }
@@ -510,6 +512,10 @@ li > a {
     display: block;
     height: 2rem;
     border-top: 1px solid rgb(201, 201, 201);
+}
+
+.fa-arw {
+    align-self: flex-end;
 }
 
 /* FOOTER */
@@ -545,6 +551,6 @@ footer {
 }
 
 .lng {
-    padding-bottom: 30px;
+    padding-bottom: 2rem;
     color: rgb(153,153,153);
 }
