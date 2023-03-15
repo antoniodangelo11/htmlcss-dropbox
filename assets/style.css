@@ -40,12 +40,6 @@ li {
     list-style: none;
 }
 
-/* EFFECTS */
-
-.dropdown:hover .dropbtn {
-    background-color: #8f8f8f;
-}
-
 /* HEADER */
 
 .navbar-top {
@@ -64,6 +58,11 @@ li {
 .navbar-top li > a {
     color: rgb(0, 0, 0);
     text-decoration: none;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #eeeeee;
+    text-decoration: underline;
 }
 
 /* MENU LEFT NAVBAR TOP */
@@ -440,16 +439,36 @@ li > a {
     background-color: #a2d39b;
 }
 
+.bkg-a:hover {
+    cursor: pointer;
+    border: 20px solid #dbdbdb;
+}
+
 .bkg-b{
     background-color: #61082b;
+}
+
+.bkg-b:hover {
+    cursor: pointer;
+    border: 20px solid #dbdbdb;
 }
 
 .bkg-c {
     background-color: #0093ce;
 }
 
+.bkg-c:hover {
+    cursor: pointer;
+    border: 20px solid #dbdbdb;
+}
+
 .bkg-d {
     background-color: #ff1c1c;
+}
+
+.bkg-d:hover {
+    cursor: pointer;
+    border: 20px solid #dbdbdb;
 }
 
 .bkg-e {
@@ -460,16 +479,36 @@ li > a {
     background-color: #d5001f;
 }
 
+.bkg-f:hover {
+    cursor: pointer;
+    border: 20px solid #dbdbdb;
+}
+
 .bkg-g {
     background-color: #b4d0e7;
+}
+
+.bkg-g:hover {
+    cursor: pointer;
+    border: 20px solid #dbdbdb;
 }
 
 .bkg-h {
     background-color: #0d2481;
 }
 
+.bkg-h:hover {
+    cursor: pointer;
+    border: 20px solid #dbdbdb;
+}
+
 .bkg-i {
     background-color: #ffd830;
+}
+
+.bkg-i:hover {
+    cursor: pointer;
+    border: 20px solid #dbdbdb;
 }
 
 /* COMPANY SECTION */
