@@ -33,10 +33,17 @@ html {
     border: none;
     cursor: pointer;
     display: inline-block;
+    text-decoration: none;
 }
 
 li {
     list-style: none;
+}
+
+/* EFFECTS */
+
+.dropdown:hover .dropbtn {
+    background-color: #8f8f8f;
 }
 
 /* HEADER */
@@ -54,7 +61,7 @@ li {
     z-index: 99;
 }
     
-.navbar-top a {
+.navbar-top li > a {
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
@@ -68,7 +75,7 @@ li {
 }
 
 .menu-left a {
-    padding: 30px 20px;
+    padding: 29px 20px;
 }
 
 .menu-left img {
@@ -84,13 +91,15 @@ li {
     white-space: nowrap;
 }
 
-.menu-right a {
-    padding: 30px 20px;
+.menu-right li > a {
+    margin-right: 5px;
+    padding: 29px 20px;
 }
 
 .btn-nav {
+    color: rgb(255, 255, 255);
     font-size: 16px;
-    padding: 8px 16px;
+    padding: 6px 16px;
     margin-right: 20px;
 }
 
