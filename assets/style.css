@@ -296,7 +296,7 @@ li > a {
 }
 
 .partner-box img {
-    height: 30rem;
+    width: 100%;
 }
 
 .right-text {
@@ -366,8 +366,8 @@ li > a {
 }
 
 .business-card img {
-    height: 250px;
-    min-width: 20%;
+    min-width: 200px;
+    width: 100%;
 }
 
 /* TEAM SECTION */
@@ -385,6 +385,8 @@ li > a {
 
 .center-team {
     width: calc(100% / 3);
+    aspect-ratio: 1 / 1;
+    overflow: auto;
 }
 
 .team-right {
@@ -395,7 +397,7 @@ li > a {
 
 .box {
     width: calc(100% / 2);
-    aspect-ratio: 1/1;
+    aspect-ratio: 1 / 1;
     display: flex;
     justify-content: center;
     align-items: center;
